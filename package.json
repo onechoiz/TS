@@ -1,0 +1,21 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run compile && npm run execute ",
+    "build": "tsc",
+    "compile": "tsc src/app.ts",
+    "execute" : "node src/app.js",
+    "browser" :"http-server -o -c-1 -p 8080"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
