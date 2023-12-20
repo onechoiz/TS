@@ -92,5 +92,6 @@ var handleHttpRespNumber = function (statusCode) {
 };
 handleHttpRespNumber(300); //idk , some other  status code not handled here
 handleHttpRespNumber(HttpStatusCode.IntrnalServerError); //Server side error
-// in js it will bw only compiled to var reqStaus = 0 /* Status.Success */;
+// in js it will bw only compiled to var reqStaus = 0 /* Status.Success */; if not assigned to anything ,just - Success
+// and var reqStaus = "success" /* Status.Success */; if assigned like above -  Success = 'success',
 var reqStaus = "success" /* Status.Success */;

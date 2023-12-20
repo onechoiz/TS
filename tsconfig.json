@@ -13,7 +13,11 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "noEmitOnError": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
